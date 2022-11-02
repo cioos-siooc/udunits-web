@@ -13,4 +13,4 @@ python app/app.py
 
 ## Deployment
 
-Commits to the `app` directory are deployed to units.server.hak4i.org via Caprover.
+Commits to the `app` directory are deployed to units.server.hak4i.org via [Caprover](https://caprover.com/).
