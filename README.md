@@ -2,7 +2,7 @@
 
 <https://units.server.hak4i.org/>
 
-Simple [Dash](https://dash.plotly.com/) app to lookup units that are compatible with the [UDUNITS](https://www.unidata.ucar.edu/software/udunits/) library. Uses [cfunits](https://github.com/NCAS-CMS/cfunits) to interact with UDUNITS.
+Simple [Dash](https://dash.plotly.com/) app to lookup units that are compatible with the [UDUNITS](https://www.unidata.ucar.edu/software/udunits/) library, which is useful for building [CF compliant](http://cfconventions.org/cf-conventions/cf-conventions.html) datasets. Uses [cfunits](https://github.com/NCAS-CMS/cfunits) to interact with UDUNITS.
 
 ## Development
 
