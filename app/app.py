@@ -10,7 +10,7 @@ app.layout = dbc.Row(
         html.Div(
             [
                 html.Br(),
-                html.H3("UDUNIT Lookup"),
+                html.H3("UDUNITS Lookup"),
                 html.H5("Check to see if your unit is valid. (Case sensitive)"),
                 dbc.Input(
                     id="input_text",
