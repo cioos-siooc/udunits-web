@@ -2,7 +2,7 @@
 
 <https://units.server.hak4i.org/>
 
-Simple Dash app to lookup units that are compatible with the UDUNITs library.
+Simple [Dash](https://dash.plotly.com/) app to lookup units that are compatible with the [UDUNITS](https://www.unidata.ucar.edu/software/udunits/) library.
 
 ## Development
 
