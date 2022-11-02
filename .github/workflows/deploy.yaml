@@ -1,0 +1,17 @@
+name: Deploy to caprover
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install Caprover CLI
+        run: npm install -g caprover
+      - name: Deploy to Caprover
+        run: caprover deploy --caproverUrl https://captain.server.hak4i.org --appToken ${{ secrets.CAPROVER_TOKEN_UNITS }} --branch 'main' --appName units
