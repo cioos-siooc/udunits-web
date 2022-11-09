@@ -7,7 +7,10 @@ Simple [Dash](https://dash.plotly.com/) app to lookup units that are compatible 
 ## Development
 
 ```sh
-pip install -r requirements.txt
+conda create --name udunits_web python=3.10
+conda activate udunits_web
+pip install -f ./app/requirements.txt
+conda install -c conda-forge udunits2>=2.2.25
 python app/app.py
 ```
 
